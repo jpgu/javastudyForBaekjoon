@@ -23,7 +23,7 @@ public class SugarDelivery {
 			finalCount = inputNum / 3;
 		}
 		else {
-			int count = (inputNum / 5) -1;		
+			int count = (inputNum / 5) -1;
 			System.out.println("case 4");
 			while(count > 0) {				
 				if((inputNum - (5*count)) % 3 == 0) {			
